@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C100CB911CB65B36002568F6 /* APageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C100CB901CB65B36002568F6 /* APageViewController.m */; };
+		C100CB931CB65CD9002568F6 /* APageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C100CB921CB65CD9002568F6 /* APageView.xib */; };
 		C10D7A621CB4B2DB00FB0A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A611CB4B2DB00FB0A49 /* main.m */; };
 		C10D7A651CB4B2DB00FB0A49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */; };
-		C10D7A681CB4B2DB00FB0A49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A671CB4B2DB00FB0A49 /* ViewController.m */; };
-		C10D7A6B1CB4B2DB00FB0A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10D7A691CB4B2DB00FB0A49 /* Main.storyboard */; };
 		C10D7A6D1CB4B2DB00FB0A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */; };
-		C10D7A701CB4B2DB00FB0A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10D7A6E1CB4B2DB00FB0A49 /* LaunchScreen.storyboard */; };
 		C10D7A961CB4C09C00FB0A49 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C10D7A951CB4C09C00FB0A49 /* libMyLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C100CB8F1CB65B36002568F6 /* APageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APageViewController.h; sourceTree = "<group>"; };
+		C100CB901CB65B36002568F6 /* APageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APageViewController.m; sourceTree = "<group>"; };
+		C100CB921CB65CD9002568F6 /* APageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APageView.xib; sourceTree = "<group>"; };
 		C10D7A5D1CB4B2DB00FB0A49 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10D7A611CB4B2DB00FB0A49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C10D7A631CB4B2DB00FB0A49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C10D7A661CB4B2DB00FB0A49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C10D7A671CB4B2DB00FB0A49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C10D7A6A1CB4B2DB00FB0A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C10D7A6F1CB4B2DB00FB0A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C10D7A711CB4B2DB00FB0A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C10D7A951CB4C09C00FB0A49 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,13 +60,12 @@
 		C10D7A5F1CB4B2DB00FB0A49 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				C100CB921CB65CD9002568F6 /* APageView.xib */,
+				C100CB8F1CB65B36002568F6 /* APageViewController.h */,
+				C100CB901CB65B36002568F6 /* APageViewController.m */,
 				C10D7A631CB4B2DB00FB0A49 /* AppDelegate.h */,
 				C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */,
-				C10D7A661CB4B2DB00FB0A49 /* ViewController.h */,
-				C10D7A671CB4B2DB00FB0A49 /* ViewController.m */,
-				C10D7A691CB4B2DB00FB0A49 /* Main.storyboard */,
 				C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */,
-				C10D7A6E1CB4B2DB00FB0A49 /* LaunchScreen.storyboard */,
 				C10D7A711CB4B2DB00FB0A49 /* Info.plist */,
 				C10D7A601CB4B2DB00FB0A49 /* Supporting Files */,
 			);
@@ -140,9 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C10D7A701CB4B2DB00FB0A49 /* LaunchScreen.storyboard in Resources */,
 				C10D7A6D1CB4B2DB00FB0A49 /* Assets.xcassets in Resources */,
-				C10D7A6B1CB4B2DB00FB0A49 /* Main.storyboard in Resources */,
+				C100CB931CB65CD9002568F6 /* APageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,32 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C10D7A681CB4B2DB00FB0A49 /* ViewController.m in Sources */,
+				C100CB911CB65B36002568F6 /* APageViewController.m in Sources */,
 				C10D7A651CB4B2DB00FB0A49 /* AppDelegate.m in Sources */,
 				C10D7A621CB4B2DB00FB0A49 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C10D7A691CB4B2DB00FB0A49 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C10D7A6A1CB4B2DB00FB0A49 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C10D7A6E1CB4B2DB00FB0A49 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C10D7A6F1CB4B2DB00FB0A49 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C10D7A721CB4B2DB00FB0A49 /* Debug */ = {
