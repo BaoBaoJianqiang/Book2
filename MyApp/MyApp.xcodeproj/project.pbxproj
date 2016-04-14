@@ -13,6 +13,8 @@
 		C10D7A651CB4B2DB00FB0A49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */; };
 		C10D7A6D1CB4B2DB00FB0A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */; };
 		C10D7A961CB4C09C00FB0A49 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C10D7A951CB4C09C00FB0A49 /* libMyLib.a */; };
+		C1FF0ABF1CBB8A2E00BA91A4 /* BPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */; };
+		C1FF0AC01CBB8A2E00BA91A4 /* BPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C10D7A711CB4B2DB00FB0A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C10D7A951CB4C09C00FB0A49 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+		C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPageView.xib; sourceTree = "<group>"; };
+		C1FF0ABD1CBB8A2E00BA91A4 /* BPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPageViewController.h; sourceTree = "<group>"; };
+		C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 				C100CB921CB65CD9002568F6 /* APageView.xib */,
 				C100CB8F1CB65B36002568F6 /* APageViewController.h */,
 				C100CB901CB65B36002568F6 /* APageViewController.m */,
+				C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */,
+				C1FF0ABD1CBB8A2E00BA91A4 /* BPageViewController.h */,
+				C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */,
 				C10D7A631CB4B2DB00FB0A49 /* AppDelegate.h */,
 				C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */,
 				C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10D7A6D1CB4B2DB00FB0A49 /* Assets.xcassets in Resources */,
+				C1FF0ABF1CBB8A2E00BA91A4 /* BPageView.xib in Resources */,
 				C100CB931CB65CD9002568F6 /* APageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			files = (
 				C100CB911CB65B36002568F6 /* APageViewController.m in Sources */,
 				C10D7A651CB4B2DB00FB0A49 /* AppDelegate.m in Sources */,
+				C1FF0AC01CBB8A2E00BA91A4 /* BPageViewController.m in Sources */,
 				C10D7A621CB4B2DB00FB0A49 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

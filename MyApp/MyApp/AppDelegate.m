@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "APageViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,13 +15,17 @@
 
 @implementation AppDelegate
 
+@synthesize navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+
     self.rootViewController = [[APageViewController alloc] init];
     
-    self.window.rootViewController = self.rootViewController;
+    self.navController = [[UINavigationController alloc] initWithRootViewController:self.rootViewController];
+    
+    self.window.rootViewController = self.navController;
+
     [self.window makeKeyAndVisible];
 
     return YES;
