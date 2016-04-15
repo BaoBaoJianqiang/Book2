@@ -15,6 +15,7 @@
 		C1F74FBA1CC0C3BD00FA324E /* CPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F74FB71CC0C3BD00FA324E /* CPageView.xib */; };
 		C1F74FBB1CC0C3BD00FA324E /* CPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F74FB91CC0C3BD00FA324E /* CPageViewController.m */; };
 		C1F74FBD1CC0C68E00FA324E /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F74FBC1CC0C68E00FA324E /* libMyLib.a */; };
+		C1F74FC21CC0CD0000FA324E /* CPageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F74FC11CC0CD0000FA324E /* CPageDataSource.m */; };
 		C1FF0ABF1CBB8A2E00BA91A4 /* BPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */; };
 		C1FF0AC01CBB8A2E00BA91A4 /* BPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,8 @@
 		C1F74FB81CC0C3BD00FA324E /* CPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageViewController.h; sourceTree = "<group>"; };
 		C1F74FB91CC0C3BD00FA324E /* CPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageViewController.m; sourceTree = "<group>"; };
 		C1F74FBC1CC0C68E00FA324E /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+		C1F74FC01CC0CD0000FA324E /* CPageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageDataSource.h; sourceTree = "<group>"; };
+		C1F74FC11CC0CD0000FA324E /* CPageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageDataSource.m; sourceTree = "<group>"; };
 		C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPageView.xib; sourceTree = "<group>"; };
 		C1FF0ABD1CBB8A2E00BA91A4 /* BPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPageViewController.h; sourceTree = "<group>"; };
 		C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPageViewController.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				C1F74FB71CC0C3BD00FA324E /* CPageView.xib */,
 				C1F74FB81CC0C3BD00FA324E /* CPageViewController.h */,
 				C1F74FB91CC0C3BD00FA324E /* CPageViewController.m */,
+				C1F74FC01CC0CD0000FA324E /* CPageDataSource.h */,
+				C1F74FC11CC0CD0000FA324E /* CPageDataSource.m */,
 				C10D7A631CB4B2DB00FB0A49 /* AppDelegate.h */,
 				C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */,
 				C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */,
@@ -168,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C100CB911CB65B36002568F6 /* APageViewController.m in Sources */,
+				C1F74FC21CC0CD0000FA324E /* CPageDataSource.m in Sources */,
 				C10D7A651CB4B2DB00FB0A49 /* AppDelegate.m in Sources */,
 				C1FF0AC01CBB8A2E00BA91A4 /* BPageViewController.m in Sources */,
 				C10D7A621CB4B2DB00FB0A49 /* main.m in Sources */,
