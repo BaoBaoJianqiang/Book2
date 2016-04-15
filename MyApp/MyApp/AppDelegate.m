@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "APageViewController.h"
+#import "Navigator.h"
 
 @interface AppDelegate ()
 
@@ -25,6 +26,9 @@
     self.navController = [[UINavigationController alloc] initWithRootViewController:self.rootViewController];
     
     self.window.rootViewController = self.navController;
+    
+    //注册Navigator
+    [Navigator sharedNavigator].nav = self.navController;
 
     [self.window makeKeyAndVisible];
 

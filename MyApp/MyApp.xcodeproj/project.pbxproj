@@ -12,9 +12,9 @@
 		C10D7A621CB4B2DB00FB0A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A611CB4B2DB00FB0A49 /* main.m */; };
 		C10D7A651CB4B2DB00FB0A49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */; };
 		C10D7A6D1CB4B2DB00FB0A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */; };
-		C10D7A961CB4C09C00FB0A49 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C10D7A951CB4C09C00FB0A49 /* libMyLib.a */; };
 		C1FF0ABF1CBB8A2E00BA91A4 /* BPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */; };
 		C1FF0AC01CBB8A2E00BA91A4 /* BPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */; };
+		C1FF0B1A1CBFB3D700BA91A4 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FF0B191CBFB3D700BA91A4 /* libMyLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +27,10 @@
 		C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C10D7A711CB4B2DB00FB0A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C10D7A951CB4C09C00FB0A49 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 		C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPageView.xib; sourceTree = "<group>"; };
 		C1FF0ABD1CBB8A2E00BA91A4 /* BPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPageViewController.h; sourceTree = "<group>"; };
 		C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPageViewController.m; sourceTree = "<group>"; };
+		C1FF0B191CBFB3D700BA91A4 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C10D7A961CB4C09C00FB0A49 /* libMyLib.a in Frameworks */,
+				C1FF0B1A1CBFB3D700BA91A4 /* libMyLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 		C10D7A541CB4B2DB00FB0A49 = {
 			isa = PBXGroup;
 			children = (
-				C10D7A951CB4C09C00FB0A49 /* libMyLib.a */,
+				C1FF0B191CBFB3D700BA91A4 /* libMyLib.a */,
 				C10D7A5F1CB4B2DB00FB0A49 /* MyApp */,
 				C10D7A5E1CB4B2DB00FB0A49 /* Products */,
 			);

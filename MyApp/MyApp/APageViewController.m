@@ -7,8 +7,7 @@
 //
 
 #import "APageViewController.h"
-
-#import "BPageViewController.h"
+#import "Navigator.h"
 
 @interface APageViewController () {
     UIButton* gotoBButton;
@@ -28,9 +27,11 @@
 }
 
 - (void) gotoB {
-    BPageViewController * bViewController = [[BPageViewController alloc] init];
-    bViewController.userName = @"jianqiang";
-    [self.navigationController pushViewController: bViewController animated: YES];
+    NSString* url = @"BPageViewController";
+    NSMutableDictionary* data = [[NSMutableDictionary alloc] init];
+    [data setValue: @"Jianqiang" forKey: @"UserName"];
+    
+    [Navigator navigateTo: url withData: data];
 }
 
 @end

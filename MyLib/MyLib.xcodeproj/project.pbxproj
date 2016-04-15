@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C10D7A8E1CB4B64A00FB0A49 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A8D1CB4B64A00FB0A49 /* Utils.m */; };
+		C1FF0B141CBFAC6200BA91A4 /* Navigator.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FF0B131CBFAC6200BA91A4 /* Navigator.m */; };
+		C1FF0B181CBFAE7C00BA91A4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FF0B171CBFAE7C00BA91A4 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,11 @@
 		C10D7A801CB4B36000FB0A49 /* libMyLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10D7A8C1CB4B62E00FB0A49 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		C10D7A8D1CB4B64A00FB0A49 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		C1FF0B121CBFAC6200BA91A4 /* Navigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navigator.h; sourceTree = "<group>"; };
+		C1FF0B131CBFAC6200BA91A4 /* Navigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Navigator.m; sourceTree = "<group>"; };
+		C1FF0B151CBFAC7F00BA91A4 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		C1FF0B161CBFAE7C00BA91A4 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C1FF0B171CBFAE7C00BA91A4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 		C10D7A821CB4B36000FB0A49 /* MyLib */ = {
 			isa = PBXGroup;
 			children = (
+				C1FF0B161CBFAE7C00BA91A4 /* BaseViewController.h */,
+				C1FF0B171CBFAE7C00BA91A4 /* BaseViewController.m */,
+				C1FF0B121CBFAC6200BA91A4 /* Navigator.h */,
+				C1FF0B131CBFAC6200BA91A4 /* Navigator.m */,
+				C1FF0B151CBFAC7F00BA91A4 /* SynthesizeSingleton.h */,
 				C10D7A8C1CB4B62E00FB0A49 /* Utils.h */,
 				C10D7A8D1CB4B64A00FB0A49 /* Utils.m */,
 			);
@@ -121,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10D7A8E1CB4B64A00FB0A49 /* Utils.m in Sources */,
+				C1FF0B181CBFAE7C00BA91A4 /* BaseViewController.m in Sources */,
+				C1FF0B141CBFAC6200BA91A4 /* Navigator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

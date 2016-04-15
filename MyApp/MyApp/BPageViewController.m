@@ -19,6 +19,8 @@
 @synthesize userName;
 
 - (void)loadView {
+    userName = [self.param objectForKey: @"UserName"];
+    
     //1.从xib中获取View
     NSArray* list = [[NSBundle mainBundle] loadNibNamed: @"BPageView" owner: self options: nil];
     self.view = list.lastObject;
