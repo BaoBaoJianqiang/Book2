@@ -11,6 +11,7 @@
 
 @interface APageViewController () {
     UIButton* gotoBButton;
+    UIButton* gotoCButton;
 }
 
 @end
@@ -28,6 +29,9 @@
     
     gotoBButton = (UIButton*)[self.view viewWithTag: 500];
     [gotoBButton addTarget: self action: @selector(gotoB) forControlEvents:UIControlEventTouchUpInside];
+
+    gotoCButton = (UIButton*)[self.view viewWithTag: 1000];
+    [gotoCButton addTarget: self action: @selector(gotoC) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)loadData {
@@ -40,6 +44,11 @@
     [data setValue: @"Jianqiang" forKey: @"UserName"];
     
     [Navigator navigateTo: url withData: data];
+}
+
+- (void) gotoC {
+    NSString* url = @"CPageViewController";
+    [Navigator navigateTo: url];
 }
 
 @end
