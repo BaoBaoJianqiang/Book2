@@ -13,4 +13,10 @@
 
 @property (nonatomic, strong) NSMutableDictionary* param;
 
+- (void)initVariables;
+
+- (void)initViews;
+
+- (void)loadData;
+
 @end

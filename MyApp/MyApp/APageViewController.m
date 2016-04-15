@@ -17,13 +17,21 @@
 
 @implementation APageViewController
 
-- (void)loadView {
+- (void)initVariables {
+    
+}
+
+- (void)initViews {
     //1.从xib中获取View
     NSArray* list = [[NSBundle mainBundle] loadNibNamed: @"APageView" owner: self options: nil];
     self.view = list.lastObject;
     
     gotoBButton = (UIButton*)[self.view viewWithTag: 500];
     [gotoBButton addTarget: self action: @selector(gotoB) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)loadData {
+    //调用MobileAPI，发起网络请求，获取页面初始化数据
 }
 
 - (void) gotoB {

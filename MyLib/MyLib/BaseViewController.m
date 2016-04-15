@@ -18,6 +18,29 @@
     return self;
 }
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self loadData];
+}
+
+- (void)loadView {
+    [self initVariables];
+    [self initViews];
+}
+
+- (void)initVariables {
+    
+}
+
+- (void)initViews {
+    
+}
+
+- (void)loadData {
+    
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }

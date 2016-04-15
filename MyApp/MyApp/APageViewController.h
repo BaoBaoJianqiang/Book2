@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface APageViewController : UIViewController
+@interface APageViewController : BaseViewController
 
 @end
