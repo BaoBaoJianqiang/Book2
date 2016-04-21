@@ -12,6 +12,7 @@
 
 @interface CPageViewController () {
     UITableView *dataTable;
+    CPageDataSource* dataSource;
 }
 
 @end
@@ -29,10 +30,10 @@
 
     dataTable = (UITableView*)[self.view viewWithTag: 500];
     
-    CPageDataSource* dataSource = [[CPageDataSource alloc] init];
+    dataSource = [[CPageDataSource alloc] init];
     dataSource.dataArray = [[NSMutableArray alloc] initWithObjects:@"川办", @"海底捞", @"8号苑", nil];
-    [dataTable setDataSource: dataSource];
-    [dataTable setDelegate: dataSource];
+    dataTable.dataSource = dataSource;
+    dataTable.delegate = dataSource;
     [dataTable reloadData];
 }
 
