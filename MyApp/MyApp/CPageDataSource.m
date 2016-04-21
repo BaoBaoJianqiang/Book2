@@ -8,6 +8,7 @@
 
 #import "CPageDataSource.h"
 #import "Navigator.h"
+#import "CPageCell.h"
 
 @interface CPageDataSource () {
     
@@ -31,12 +32,14 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *identifier = @"Cell";
-    UITableViewCell *cell = (UITableViewCell*)[tableView dequeueReusableCellWithIdentifier: identifier];
+    CPageCell *cell = [tableView dequeueReusableCellWithIdentifier: identifier];
     if(cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier: identifier];
+        NSArray* list = [[NSBundle mainBundle] loadNibNamed:@"CPageCell" owner:self options:nil];
+        cell = (CPageCell*)[list lastObject];
     }
     
-    [[cell textLabel] setText:[self.dataArray objectAtIndex:indexPath.row]];
+    NSString* title = [self.dataArray objectAtIndex:indexPath.row];
+    [cell fillData: title];
     
     return cell;
 }
