@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C10D7A8E1CB4B64A00FB0A49 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A8D1CB4B64A00FB0A49 /* Utils.m */; };
-		C1FF0B141CBFAC6200BA91A4 /* Navigator.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FF0B131CBFAC6200BA91A4 /* Navigator.m */; };
-		C1FF0B181CBFAE7C00BA91A4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FF0B171CBFAE7C00BA91A4 /* BaseViewController.m */; };
+		C1001BAF1CC8CC0C000FBB57 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BA61CC8CC0C000FBB57 /* BaseViewController.m */; };
+		C1001BB01CC8CC0C000FBB57 /* Navigator.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BAA1CC8CC0C000FBB57 /* Navigator.m */; };
+		C1001BB11CC8CC0C000FBB57 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BAE1CC8CC0C000FBB57 /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,14 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C1001BA51CC8CC0C000FBB57 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C1001BA61CC8CC0C000FBB57 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C1001BA91CC8CC0C000FBB57 /* Navigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navigator.h; sourceTree = "<group>"; };
+		C1001BAA1CC8CC0C000FBB57 /* Navigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Navigator.m; sourceTree = "<group>"; };
+		C1001BAD1CC8CC0C000FBB57 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C1001BAE1CC8CC0C000FBB57 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		C1001BB21CC8CC27000FBB57 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		C10D7A801CB4B36000FB0A49 /* libMyLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C10D7A8C1CB4B62E00FB0A49 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		C10D7A8D1CB4B64A00FB0A49 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		C1FF0B121CBFAC6200BA91A4 /* Navigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navigator.h; sourceTree = "<group>"; };
-		C1FF0B131CBFAC6200BA91A4 /* Navigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Navigator.m; sourceTree = "<group>"; };
-		C1FF0B151CBFAC7F00BA91A4 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
-		C1FF0B161CBFAE7C00BA91A4 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		C1FF0B171CBFAE7C00BA91A4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +46,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1001BA41CC8CC0C000FBB57 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C1001BA51CC8CC0C000FBB57 /* BaseViewController.h */,
+				C1001BA61CC8CC0C000FBB57 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C1001BA81CC8CC0C000FBB57 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				C1001BA91CC8CC0C000FBB57 /* Navigator.h */,
+				C1001BAA1CC8CC0C000FBB57 /* Navigator.m */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		C1001BAB1CC8CC0C000FBB57 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C1001BB21CC8CC27000FBB57 /* SynthesizeSingleton.h */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		C1001BAC1CC8CC0C000FBB57 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C1001BAD1CC8CC0C000FBB57 /* Utils.h */,
+				C1001BAE1CC8CC0C000FBB57 /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		C10D7A771CB4B36000FB0A49 = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +100,10 @@
 		C10D7A821CB4B36000FB0A49 /* MyLib */ = {
 			isa = PBXGroup;
 			children = (
-				C1FF0B161CBFAE7C00BA91A4 /* BaseViewController.h */,
-				C1FF0B171CBFAE7C00BA91A4 /* BaseViewController.m */,
-				C1FF0B121CBFAC6200BA91A4 /* Navigator.h */,
-				C1FF0B131CBFAC6200BA91A4 /* Navigator.m */,
-				C1FF0B151CBFAC7F00BA91A4 /* SynthesizeSingleton.h */,
-				C10D7A8C1CB4B62E00FB0A49 /* Utils.h */,
-				C10D7A8D1CB4B64A00FB0A49 /* Utils.m */,
+				C1001BA41CC8CC0C000FBB57 /* Base */,
+				C1001BA81CC8CC0C000FBB57 /* Navigator */,
+				C1001BAB1CC8CC0C000FBB57 /* ThirdParty */,
+				C1001BAC1CC8CC0C000FBB57 /* Utils */,
 			);
 			path = MyLib;
 			sourceTree = "<group>";
@@ -132,9 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C10D7A8E1CB4B64A00FB0A49 /* Utils.m in Sources */,
-				C1FF0B181CBFAE7C00BA91A4 /* BaseViewController.m in Sources */,
-				C1FF0B141CBFAC6200BA91A4 /* Navigator.m in Sources */,
+				C1001BB11CC8CC0C000FBB57 /* Utils.m in Sources */,
+				C1001BAF1CC8CC0C000FBB57 /* BaseViewController.m in Sources */,
+				C1001BB01CC8CC0C000FBB57 /* Navigator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

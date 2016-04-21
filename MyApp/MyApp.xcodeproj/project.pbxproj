@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1001BA01CC8BD59000FBB57 /* CPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1001B9F1CC8BD59000FBB57 /* CPageCell.xib */; };
-		C1001BA31CC8BED6000FBB57 /* CPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BA21CC8BED6000FBB57 /* CPageCell.m */; };
-		C100CB911CB65B36002568F6 /* APageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C100CB901CB65B36002568F6 /* APageViewController.m */; };
-		C100CB931CB65CD9002568F6 /* APageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C100CB921CB65CD9002568F6 /* APageView.xib */; };
+		C1001BB41CC8CC39000FBB57 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1001BB31CC8CC39000FBB57 /* libMyLib.a */; };
+		C1001BC71CC8CCC7000FBB57 /* APageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1001BB71CC8CCC7000FBB57 /* APageView.xib */; };
+		C1001BC81CC8CCC7000FBB57 /* APageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BB91CC8CCC7000FBB57 /* APageViewController.m */; };
+		C1001BC91CC8CCC7000FBB57 /* BPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1001BBB1CC8CCC7000FBB57 /* BPageView.xib */; };
+		C1001BCA1CC8CCC7000FBB57 /* BPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BBD1CC8CCC7000FBB57 /* BPageViewController.m */; };
+		C1001BCB1CC8CCC7000FBB57 /* CPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BC01CC8CCC7000FBB57 /* CPageCell.m */; };
+		C1001BCC1CC8CCC7000FBB57 /* CPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1001BC11CC8CCC7000FBB57 /* CPageCell.xib */; };
+		C1001BCD1CC8CCC7000FBB57 /* CPageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BC31CC8CCC7000FBB57 /* CPageDataSource.m */; };
+		C1001BCE1CC8CCC7000FBB57 /* CPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1001BC41CC8CCC7000FBB57 /* CPageView.xib */; };
+		C1001BCF1CC8CCC7000FBB57 /* CPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1001BC61CC8CCC7000FBB57 /* CPageViewController.m */; };
 		C10D7A621CB4B2DB00FB0A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A611CB4B2DB00FB0A49 /* main.m */; };
 		C10D7A651CB4B2DB00FB0A49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */; };
 		C10D7A6D1CB4B2DB00FB0A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */; };
-		C1F74FBA1CC0C3BD00FA324E /* CPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F74FB71CC0C3BD00FA324E /* CPageView.xib */; };
-		C1F74FBB1CC0C3BD00FA324E /* CPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F74FB91CC0C3BD00FA324E /* CPageViewController.m */; };
-		C1F74FBD1CC0C68E00FA324E /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F74FBC1CC0C68E00FA324E /* libMyLib.a */; };
-		C1F74FC21CC0CD0000FA324E /* CPageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F74FC11CC0CD0000FA324E /* CPageDataSource.m */; };
-		C1FF0ABF1CBB8A2E00BA91A4 /* BPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */; };
-		C1FF0AC01CBB8A2E00BA91A4 /* BPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C1001B9F1CC8BD59000FBB57 /* CPageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPageCell.xib; sourceTree = "<group>"; };
-		C1001BA11CC8BED6000FBB57 /* CPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageCell.h; sourceTree = "<group>"; };
-		C1001BA21CC8BED6000FBB57 /* CPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageCell.m; sourceTree = "<group>"; };
-		C100CB8F1CB65B36002568F6 /* APageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APageViewController.h; sourceTree = "<group>"; };
-		C100CB901CB65B36002568F6 /* APageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APageViewController.m; sourceTree = "<group>"; };
-		C100CB921CB65CD9002568F6 /* APageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APageView.xib; sourceTree = "<group>"; };
+		C1001BB31CC8CC39000FBB57 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+		C1001BB71CC8CCC7000FBB57 /* APageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APageView.xib; sourceTree = "<group>"; };
+		C1001BB81CC8CCC7000FBB57 /* APageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APageViewController.h; sourceTree = "<group>"; };
+		C1001BB91CC8CCC7000FBB57 /* APageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APageViewController.m; sourceTree = "<group>"; };
+		C1001BBB1CC8CCC7000FBB57 /* BPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPageView.xib; sourceTree = "<group>"; };
+		C1001BBC1CC8CCC7000FBB57 /* BPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPageViewController.h; sourceTree = "<group>"; };
+		C1001BBD1CC8CCC7000FBB57 /* BPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPageViewController.m; sourceTree = "<group>"; };
+		C1001BBF1CC8CCC7000FBB57 /* CPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageCell.h; sourceTree = "<group>"; };
+		C1001BC01CC8CCC7000FBB57 /* CPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageCell.m; sourceTree = "<group>"; };
+		C1001BC11CC8CCC7000FBB57 /* CPageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPageCell.xib; sourceTree = "<group>"; };
+		C1001BC21CC8CCC7000FBB57 /* CPageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageDataSource.h; sourceTree = "<group>"; };
+		C1001BC31CC8CCC7000FBB57 /* CPageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageDataSource.m; sourceTree = "<group>"; };
+		C1001BC41CC8CCC7000FBB57 /* CPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPageView.xib; sourceTree = "<group>"; };
+		C1001BC51CC8CCC7000FBB57 /* CPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageViewController.h; sourceTree = "<group>"; };
+		C1001BC61CC8CCC7000FBB57 /* CPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageViewController.m; sourceTree = "<group>"; };
 		C10D7A5D1CB4B2DB00FB0A49 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10D7A611CB4B2DB00FB0A49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C10D7A631CB4B2DB00FB0A49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C10D7A711CB4B2DB00FB0A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1F74FB71CC0C3BD00FA324E /* CPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPageView.xib; sourceTree = "<group>"; };
-		C1F74FB81CC0C3BD00FA324E /* CPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageViewController.h; sourceTree = "<group>"; };
-		C1F74FB91CC0C3BD00FA324E /* CPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageViewController.m; sourceTree = "<group>"; };
-		C1F74FBC1CC0C68E00FA324E /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
-		C1F74FC01CC0CD0000FA324E /* CPageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageDataSource.h; sourceTree = "<group>"; };
-		C1F74FC11CC0CD0000FA324E /* CPageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageDataSource.m; sourceTree = "<group>"; };
-		C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPageView.xib; sourceTree = "<group>"; };
-		C1FF0ABD1CBB8A2E00BA91A4 /* BPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPageViewController.h; sourceTree = "<group>"; };
-		C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +51,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F74FBD1CC0C68E00FA324E /* libMyLib.a in Frameworks */,
+				C1001BB41CC8CC39000FBB57 /* libMyLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1001BB51CC8CCC7000FBB57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1001BB61CC8CCC7000FBB57 /* A */,
+				C1001BBA1CC8CCC7000FBB57 /* B */,
+				C1001BBE1CC8CCC7000FBB57 /* C */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1001BB61CC8CCC7000FBB57 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				C1001BB71CC8CCC7000FBB57 /* APageView.xib */,
+				C1001BB81CC8CCC7000FBB57 /* APageViewController.h */,
+				C1001BB91CC8CCC7000FBB57 /* APageViewController.m */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		C1001BBA1CC8CCC7000FBB57 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				C1001BBB1CC8CCC7000FBB57 /* BPageView.xib */,
+				C1001BBC1CC8CCC7000FBB57 /* BPageViewController.h */,
+				C1001BBD1CC8CCC7000FBB57 /* BPageViewController.m */,
+			);
+			path = B;
+			sourceTree = "<group>";
+		};
+		C1001BBE1CC8CCC7000FBB57 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				C1001BBF1CC8CCC7000FBB57 /* CPageCell.h */,
+				C1001BC01CC8CCC7000FBB57 /* CPageCell.m */,
+				C1001BC11CC8CCC7000FBB57 /* CPageCell.xib */,
+				C1001BC21CC8CCC7000FBB57 /* CPageDataSource.h */,
+				C1001BC31CC8CCC7000FBB57 /* CPageDataSource.m */,
+				C1001BC41CC8CCC7000FBB57 /* CPageView.xib */,
+				C1001BC51CC8CCC7000FBB57 /* CPageViewController.h */,
+				C1001BC61CC8CCC7000FBB57 /* CPageViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		C10D7A541CB4B2DB00FB0A49 = {
 			isa = PBXGroup;
 			children = (
-				C1F74FBC1CC0C68E00FA324E /* libMyLib.a */,
+				C1001BB31CC8CC39000FBB57 /* libMyLib.a */,
 				C10D7A5F1CB4B2DB00FB0A49 /* MyApp */,
 				C10D7A5E1CB4B2DB00FB0A49 /* Products */,
 			);
@@ -78,20 +123,7 @@
 		C10D7A5F1CB4B2DB00FB0A49 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				C100CB921CB65CD9002568F6 /* APageView.xib */,
-				C100CB8F1CB65B36002568F6 /* APageViewController.h */,
-				C100CB901CB65B36002568F6 /* APageViewController.m */,
-				C1FF0ABC1CBB8A2E00BA91A4 /* BPageView.xib */,
-				C1FF0ABD1CBB8A2E00BA91A4 /* BPageViewController.h */,
-				C1FF0ABE1CBB8A2E00BA91A4 /* BPageViewController.m */,
-				C1001B9F1CC8BD59000FBB57 /* CPageCell.xib */,
-				C1001BA11CC8BED6000FBB57 /* CPageCell.h */,
-				C1001BA21CC8BED6000FBB57 /* CPageCell.m */,
-				C1F74FB71CC0C3BD00FA324E /* CPageView.xib */,
-				C1F74FB81CC0C3BD00FA324E /* CPageViewController.h */,
-				C1F74FB91CC0C3BD00FA324E /* CPageViewController.m */,
-				C1F74FC01CC0CD0000FA324E /* CPageDataSource.h */,
-				C1F74FC11CC0CD0000FA324E /* CPageDataSource.m */,
+				C1001BB51CC8CCC7000FBB57 /* Views */,
 				C10D7A631CB4B2DB00FB0A49 /* AppDelegate.h */,
 				C10D7A641CB4B2DB00FB0A49 /* AppDelegate.m */,
 				C10D7A6C1CB4B2DB00FB0A49 /* Assets.xcassets */,
@@ -166,11 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1001BCE1CC8CCC7000FBB57 /* CPageView.xib in Resources */,
 				C10D7A6D1CB4B2DB00FB0A49 /* Assets.xcassets in Resources */,
-				C1F74FBA1CC0C3BD00FA324E /* CPageView.xib in Resources */,
-				C1001BA01CC8BD59000FBB57 /* CPageCell.xib in Resources */,
-				C1FF0ABF1CBB8A2E00BA91A4 /* BPageView.xib in Resources */,
-				C100CB931CB65CD9002568F6 /* APageView.xib in Resources */,
+				C1001BC91CC8CCC7000FBB57 /* BPageView.xib in Resources */,
+				C1001BCC1CC8CCC7000FBB57 /* CPageCell.xib in Resources */,
+				C1001BC71CC8CCC7000FBB57 /* APageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,13 +213,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C100CB911CB65B36002568F6 /* APageViewController.m in Sources */,
-				C1F74FC21CC0CD0000FA324E /* CPageDataSource.m in Sources */,
 				C10D7A651CB4B2DB00FB0A49 /* AppDelegate.m in Sources */,
-				C1FF0AC01CBB8A2E00BA91A4 /* BPageViewController.m in Sources */,
-				C1001BA31CC8BED6000FBB57 /* CPageCell.m in Sources */,
+				C1001BCF1CC8CCC7000FBB57 /* CPageViewController.m in Sources */,
+				C1001BCD1CC8CCC7000FBB57 /* CPageDataSource.m in Sources */,
 				C10D7A621CB4B2DB00FB0A49 /* main.m in Sources */,
-				C1F74FBB1CC0C3BD00FA324E /* CPageViewController.m in Sources */,
+				C1001BCA1CC8CCC7000FBB57 /* BPageViewController.m in Sources */,
+				C1001BCB1CC8CCC7000FBB57 /* CPageCell.m in Sources */,
+				C1001BC81CC8CCC7000FBB57 /* APageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
